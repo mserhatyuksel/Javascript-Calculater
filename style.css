@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 1.8rem;
+}
+button {
+    font-family : inherit;
+    font-size: 1.8rem;
+}
+
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;
+}
+
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 1rem;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+
+#keyboard{
+	height: 412px;
+}
+.operator, .number, .empty{
+	width: 90px;
+	height: 60px;
+	margin: 15px;
+	padding: 5px;
+	float: left;
+	border: 1px solid rgb(155, 155, 155);
+	font-size: 1.4rem;
+	border-radius: 1px;
+	overflow-x: auto;
+	transition: all .2s ease-in-out;
+}
+
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 2rem;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+
+#calculator{
+	width: 481px;
+	height: 582px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:nth-child(20){
+    background-color: #4d90fe;
+    color: #FFF;
+    border: 1px solid #3079ED;
+}
