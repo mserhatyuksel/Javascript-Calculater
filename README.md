@@ -2,4 +2,4 @@
 
 <hr>
 
-<img src="images/calculator.svg"></img>
+<img src="images/calculator.png"></img>
